@@ -1,0 +1,57 @@
+.list-clients {
+  @media screen and (min-width: 320px) {
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 170px);
+    grid-template-rows: repeat(3, 92px);
+    grid-column-gap: 30px;
+    row-gap: 30px;
+  }
+  @media (min-width: 768px) {
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 170px);
+    grid-template-rows: repeat(2, 92px);
+    grid-column-gap: 30px;
+    row-gap: 30px;
+  }
+  @media (min-width: 1200px) {
+    display: flex;
+    list-style: none;
+  }
+  display: flex;
+  list-style: none;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
+.always-clients {
+  text-align: center;
+  margin-top: 94px;
+}
+
+.client {
+  width: 170px;
+  text-align: center;
+  border-top: 3px;
+  border-bottom: 3px;
+  border-right: 3px;
+  border-left: 3px;
+  border-style: solid;
+  border-color: #757575;
+}
+
+.client:hover svg {
+  fill: #2196f3;
+}
+.client:hover {
+  border-color: #2196f3;
+}
+
+.svgs {
+  fill: #afb1b8;
+  width: 170px;
+  height: 92px;
+}

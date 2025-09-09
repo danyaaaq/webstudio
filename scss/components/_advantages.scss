@@ -1,0 +1,132 @@
+.advantages-ul {
+  @media screen and (min-width: 320px) {
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 30px;
+  }
+  @media (min-width: 768px) {
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 354px);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  @media (min-width: 1200px) {
+    display: flex;
+    list-style: none;
+    padding-bottom: 154px;
+  }
+  display: flex;
+  list-style: none;
+  padding-top: 94px;
+}
+.advantages-li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.advantages-title {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.div-text {
+  background: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  flex-shrink: 0;
+  padding: 27px;
+
+  position: relative;
+  bottom: 73px;
+}
+
+.div-text p {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.advantages-svg1 {
+  content: "";
+  // background-image: url("./img/antenna1\(1\).png");
+  display: block;
+  @extend %advant-svg;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.advantages-svg2 {
+  content: "";
+  background-image: url("./img/clock1\(1\).png");
+  display: block;
+  @extend %advant-svg;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.advantages-svg3 {
+  content: "";
+  background-image: url("./img/diagram1\(2\).png");
+  display: block;
+  @extend %advant-svg;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.advantages-svg4 {
+  content: "";
+  background-image: url("./img/astronaut1\(1\).png");
+  display: block;
+  @extend %advant-svg;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.advantages-p {
+  width: 270px;
+}
+
+.advantages-title2 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.advantages-title3 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.advantages-title4 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.div-svg {
+  padding-top: 94px;
+  // position: absolute;
+  width: 270px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #f5f4fa;
+  top: -100px;
+}
+
+.advantages-li {
+  position: relative;
+}
